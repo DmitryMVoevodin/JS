@@ -1,0 +1,32 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.content {
+    margin-top: 60px;
+}
+
+.usersTable {
+    margin: 40px auto;
+    text-align: left;
+
+}
+
+.usersTable, .usersTable th, .usersTable td  {
+    border: 1px solid coral;
+    border-collapse: collapse;
+}
+
+.usersTable th, .usersTable td  {
+    padding: 5px 10px;
+}
+
+.pageTitle {
+    color: darkorange;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Users Page</title>
+        <link rel="stylesheet" href="./styles.css">
+        <!--<script src="script.js"></script>-->
+    </head>
+    <body>
+        <div id="pageContainer" class="container">
+            <!--That's main container of the page-->
+            <div id="pageHeader" class="header">
+                <!--That's header of the page-->
+                <h1 class="pageTitle">Main Users Page</h1>
+            </div>
+            <div class="content">
+                <!--That's content of the page-->
+                <h3>Here is content of the page</h3>
+                <table class="usersTable">
+                    <caption>Table with users</caption>
+                    <thead>
+                        <tr>
+                            <th>User Id</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Comment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Jon</td>
+                            <td>Doe</td>
+                            <td rowspan="4">All of these are users</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Michael</td>
+                            <td>Irving</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Joan</td>
+                            <td id="targetNode">Glinch</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Den</td>
+                            <td>Rutkowsky</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div id="btnContainer">
+                    <!-- Container for three buttons -->
+                </div>
+            </div>
+            <div class="footer">
+                All rights reserved
+            </div>
+        </div>
+        <script src="myscript.js"></script>
+    </body>
+</html>
