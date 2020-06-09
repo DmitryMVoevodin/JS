@@ -32,13 +32,13 @@ function switchFunction(p) {
     }
     return p;
 }
-
+let variableParam1;
 ["1", 2, "3", "4", 5, null].forEach(function(param) {
-    let variableParam = param;
+    let variableParam = param; variableParam1 = param;
     console.log("Before param=" + variableParam + "-" + typeof(variableParam));
     variableParam = switchFunction(variableParam);
-    console.log("After param=" + variableParam + "-" + typeof(variableParam));
-});
+    console.log("After param=" + variableParam + "-" + typeof(variableParam));}); 
+console.log(variableParam1);
 //console.log(variableParam);
 console.log("***********************************************************************");
 
